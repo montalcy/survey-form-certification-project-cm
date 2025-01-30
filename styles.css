@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+*{
+   background-color: #3E22E9;
+   font-family: 'Inconsolata';
+}
+
+h1{
+  text-decoration-line: underline; 
+  text-decoration-style: dotted; 
+  text-decoration-color: white; 
+  text-underline-position: under;
+  color: #FF7BF2;
+}
+
+h2{
+  color: white;
+  text-decoration: underline dotted 10% white; 
+  text-underline-position: under;
+}
+
+p, label{
+  color: white;
+}
+
+p{
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+textarea{
+  width: 450px;
+  height: 100px;
+  background-color: #FF7BF2;
+  color: black;
+  border-radius: 8px;
+}
+
+label{
+ margin: 0.5rem 0;
+}
+textarea::placeholder, input::placeholder{
+  color: rgba(0, 0, 0, 0.45);
+}
+
+textarea::placeholder{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+input{
+  border-radius: 8px;
+  width: 292px;
+  height: 24px;
+  padding: 5px 10px;
+  background-color: #FF7BF2;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"]{
+  box-shadow:0px 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+input[type="submit"]
+{
+  align-content: center;
+}
+input[type="radio"],
+[type="checkbox"]{
+  width: 20px;
+  height: 17px;
+}
+
+#name-label, #email-label, #number-label{
+   display: inline-block;
+   text-align: left;
+}
+
+#dropdown{
+  border-radius: 8px;
+  width: 250px;
+  height: 40px;
+  padding: 5px 10px;
+  box-shadow:0px 4px 8px rgba(255, 255, 255, 0.5);
+  padding: 5px 5px;
+  background-color: #FF7BF2;
+}
+
+.field{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+.container{ 
+  margin: 25px 10px;
+}
+
+.centering{
+  text-align: center;
+}
+
+.center-btn{
+  padding-left: 75px;
+  padding-top: 10px;
+}
+.content{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.questions{
+   padding-top: 35px;
+   padding-bottom: 5px;
+   color: white;
+}
+
+.question2{
+    width: fit-content;
+    max-width: 393px;
+    margin: 0 auto;
+}
+
+input[type="submit"]{
+  width: auto;
+  box-shadow:0px 4px 8px rgba(255, 255, 255, 0.5);
+}
+.top{
+  padding-top: 30px;
+}
+
+input[type="submit"]{
+  color: white;
+  background-color: transparent;
+  outline: 2px solid white;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head><link rel="stylesheet" href="styles.css"><head/>
+<body>
+<div class="content">
+  <div class="centering">
+<h1 id="title">what's your jam?</h1>
+  </div>
+<p id="description"> 
+  Ever wondered what your music taste says about you? Take this quick survey to explore your inner rhythm and discover your musical personality. Whether you're a classical connoisseur, a pop fanatic, or a metalhead, we’ve got something for everyone!
+</p>
+<form id="survey-form">
+  <br>
+    <div class="centering">
+  <h2>who are you?</h2>
+  <label id="name-label">
+    <div class="field">
+      full name: </div>
+  <input required id="name" type="text" placeholder="ex. John Doe"/>
+  </label>
+  <br>
+  <label id="email-label">
+    <div class="field">
+    email:</div>
+  <input required id="email" type="email" placeholder="ex. johndoe123@email.com"/>
+  </label>
+  <br>
+  <label id="number-label">
+    <div class="field">
+    age: </div> 
+  <input required id="number" type="number" placeholder="ex. 14" min="14" max="99"/>
+  </label>
+  </div>
+<div class="queues">
+    <div class="centering">
+    <h2>queue's for you!</h2>
+    </div>
+  <div class="centering">
+  <label> 
+    What’s your preferred way to listen to music? 
+    <div class="questions">
+  <select id="dropdown">
+    <option value="spotify">Spotify</option>
+    <option>Apple music</option>
+    <option>Radio</option>
+    <option>Youtube</option>
+    <option>Disc</option>
+    <option>Vinyl</option>
+  </select>
+    </div>
+  </div>
+  <div class="questions centering">
+    How often do you listen to music each day?
+  </div>
+    <div class="center-btn">
+  <label><input name="amount" value="day" type="radio"> All day</label><br>
+    <label><input name="amount" value="hour" type="radio"> A few hours</label></br>
+  <label><input name="amount" value="second" type="radio"> Like 3 seconds</label><br>
+    </div>
+          <div class="questions centering question2">
+      What genres of music do you enjoy? (Select all that apply) 
+      </div>
+        <div class="center-btn">
+
+    <label><input name="genre" checked value="pop" type="checkbox"> Pop</label><br>
+    <label><input name="genre" value="rock" type="checkbox"> Rock<br></label>
+  <label><input name="genre" value="hiphop" type="checkbox"> Hip hop<br></label>
+        <label><input name="genre"  value="country" type="checkbox"> Country<br></label>
+        <label><input name="genre"  value="rap" type="checkbox"> Rap<br></label>
+    </div>
+ <br>
+      </div>
+      <div class="top centering">
+    <textarea placeholder="suggestions? comments? concerns?" /></textarea>
+    </div>
+    <div class="top centering">
+    <input type="submit" id="submit" value="submit">
+    </div>
+</div>
+</form>
+</body>
